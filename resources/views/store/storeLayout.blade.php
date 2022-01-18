@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Electro</title>
+    <title>Ecomm</title>
 
     <link rel="shortcut icon" href="{{asset('favicon.png')}}" />
     <!-- Google font -->
@@ -89,13 +89,13 @@
                 <!-- row -->
                 <div class="row">
                     <!-- LOGO -->
-                    <div class="col-md-3">
+                    {{-- <div class="col-md-3">
                         <div class="header-logo">
                             <a href="{{route('user.home')}}" class="logo">
                                 <img src="{{asset('img/logo.png')}}" alt="">
                             </a>
                         </div>
-                    </div>
+                    </div> --}}
                     <!-- /LOGO -->
 
                     <!-- SEARCH BAR P.S: DISABLED BECAUSE OF THE BUG IN SEARCH CONTROLLER-->
@@ -112,7 +112,7 @@
                     <!-- /SEARCH BAR -->
 
                     <!-- ACCOUNT -->
-                    <div class="col-md-9 clearfix">
+                    <div class="col-md-13 clearfix">
                         <div class="header-ctn">
                             <!-- Cart -->
                             <div  class="dropdown">
